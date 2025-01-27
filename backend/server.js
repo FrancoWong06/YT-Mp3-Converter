@@ -7,7 +7,12 @@ const { exec } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-app.use(cors());
+app.use(cors(
+  {
+    origin:["https://yt-mp3-converter-qwac.vercel.app/"],
+    method: ["POST", "GET"],
+    credential: true
+  }));
 app.use(express.json());
 
 app.get('/', (req,res) => {
