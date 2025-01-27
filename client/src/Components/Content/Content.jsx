@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Content.css";
 
-const convertUrl = "http://localhost:3000/convert"
+const convertUrl = "yt-mp3-converter-imrf.vercel.app/convert"
 
 export default function Content() {
   const [url, setUrl] = useState("");
