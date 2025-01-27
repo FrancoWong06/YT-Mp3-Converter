@@ -1,0 +1,32 @@
+.header{
+  color: aliceblue;
+  max-width: 1200px;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name{
+  margin-left: 50px;
+}
+
+.nav{
+  margin-right: 50px;
+  width: 18vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navHome, .navContact {
+  text-decoration: none;
+  align-content: center;
+  color: aliceblue;
+  transition: all 0.4s;
+}
+
+.navHome:Hover,
+.navContact:Hover{
+  color: rgba(240, 248, 255, 0.832);
+} 

@@ -1,0 +1,40 @@
+.mainContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  max-width: 1200px;
+}
+
+.downloadForm{
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.info{
+  color: aliceblue;
+}
+
+.inputUrl{
+  width: 60vw;
+  height: 3vh;
+  border-radius: 0.2rem;
+  border: none;
+  box-shadow: 0 0px 10px rgb(153, 153, 153);
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.downloadBtn{
+  width: 10vw;
+  height: 3vh;
+  background-color: aliceblue;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
