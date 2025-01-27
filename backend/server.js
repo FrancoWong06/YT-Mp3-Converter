@@ -10,6 +10,10 @@ const path = require('path');
 app.use(cors());
 app.use(express.json());
 
+app.get('/', (req,res) => {
+  res.send('TY-Mp3-Converter')
+})
+
 app.post("/convert", async (req, res) => {
   const url = req.body.url;
 
